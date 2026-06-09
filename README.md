@@ -1,10 +1,11 @@
 [![Run Notebook](https://github.com/eisenhauerIO/projects-businss-decisions/actions/workflows/run-notebook.yml/badge.svg)](https://github.com/eisenhauerIO/projects-businss-decisions/actions/workflows/run-notebook.yml)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-## Project Example
+## Uber Entry and Alcohol-Related Traffic Fatalities
+# Overview 
 
-The notebook project.ipynb contains an example project by [Annica Gehlen](https://github.com/amageh) from the 2019 iteration of the [OSE data science](https://github.com/OpenSourceEconomics/ose-course-data-science) class at Bonn University. It replicates the results from the following paper:
+This project replicates the main difference-in-differences analysis from Greenwood & Wattal (2017), which examines whether the introduction of Uber reduced alcohol-related traffic fatalities.
 
-* Lindo, J. M., Sanders, N. J., & Oreopoulos, P. (2010). [Ability, Gender, and Performance Standards: Evidence from Academic Probation](https://www.aeaweb.org/articles?id=10.1257/app.2.2.95). *American Economic Journal: Applied Economics*, 2(2), 95-117.
+Using county-level data from California between 2010 and 2014, I estimate the effect of Uber's entry on alcohol-related traffic fatality rates. The analysis combines fatal crash data from the Fatality Analysis Reporting System (FARS), county population estimates from the U.S. Census Bureau, and Uber launch information across California counties.
 
-Lindo et al. (2010) examine the effects of academic probation on student outcomes using a regression discontinuity design. The analysis is based on data from a large Canadian university and evaluates whether academic probation is successful in improving the performance of low scoring students. Consistent with a model of performance standards, the authors find that being placed on probation in the first year of university induces some students to drop out of school while it improves the grades of students who continue their studies. In a more general sense, academic probation can offer insights into how agents respond to negative incentives and the threat of punishment in a real-world context.
+The goal of this project is to determine whether increased access to ride-sharing services provided an alternative to drunk driving and ultimately improved traffic safety.
